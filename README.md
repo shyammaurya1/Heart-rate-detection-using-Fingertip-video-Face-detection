@@ -17,6 +17,9 @@ imutils <br>
 
 ![demo](https://user-images.githubusercontent.com/49883798/115822402-1dc19000-a422-11eb-9ed5-e30b825d8739.gif)
 
+
+
+
 ```python
 faceCascade = cv2.CascadeClassifier(CASCADE_PATH)
 
@@ -54,6 +57,7 @@ faceCascade = cv2.CascadeClassifier(CASCADE_PATH)
 
     print(heartRates)
 
+>for more detail go through this pdf  :- https://drive.google.com/file/d/1hy8q0nHDuTLIcw5mDD24FYOPcbvApdsj/view?usp=sharing
 ```
 
->Thank you!
+Thank you, if you are here!
