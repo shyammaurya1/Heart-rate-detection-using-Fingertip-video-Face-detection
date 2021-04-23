@@ -58,7 +58,7 @@ faceCascade = cv2.CascadeClassifier(CASCADE_PATH)
     print(heartRates)
     '''
 
->for more detail go through this pdf  :- [link]https://drive.google.com/file/d/1hy8q0nHDuTLIcw5mDD24FYOPcbvApdsj/view?usp=sharing
+>for more detail go through this pdf  :- [link](https://drive.google.com/file/d/1hy8q0nHDuTLIcw5mDD24FYOPcbvApdsj/view?usp=sharing "pdf link")
 ```
 
 Thank you, if you are here!
