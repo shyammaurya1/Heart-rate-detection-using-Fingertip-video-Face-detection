@@ -1,0 +1,27 @@
+<h2><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="text-decoration: underline;">Face Detection</span></strong></h2>
+<form action="/stream/">{% csrf_token %} <button name="run_script" type="submit">Detect on webcam</button></form>                                                                                                                                                                                                                                                                                                            
+<form action="/square/">{% csrf_token %} <button name="run_script" type="submit">Detect on Uploaded images</button></form> 
+<p>Uploaded Images:-</p>
+<ul>
+<ul>{% for post in object_list %}</ul>
+</ul> 
+<div class="dropdown-content"><a href="#"> <img src="{{ post.cover.url}}" width="80" height="100" /></a></div> 
+<ul>{% endfor %}</ul>
+
+
+
+
+
+
+
+
+<!-- <img src="{{STATIC_URL}}/media/image_1.jpg" width="100" height="120"> -->
+<form action="post/" method="post">
+<p>{% csrf_token %} <button name="add_post" type="submit">Upload More</button></p>
+<hr />
+<h2><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong><span style="text-decoration: underline;"><strong>HEART</strong><strong> RATE DETECTION (using fingertip video)</strong></span></h2>
+<p>&nbsp;</p>
+</form>
+
+<form action="/record/">{% csrf_token %} <button name="record" type="submit">Record fingertip Video(40 sec)</button></form>
+<form action="/detect/">{% csrf_token %} <button name="detect" type="submit">Detect on Recorded video</button></form> 

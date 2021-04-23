@@ -1,0 +1,38 @@
+<h1>Upload new image</h1>
+<form method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Upload</button>
+</form>
+<!-- 
+<script>
+  var loadFile1 = function(event) {
+    var output = document.getElementById('output1');
+    output.src = URL.createObjectURL(event.target.files[0]);
+  };
+    var loadFile2 = function(event) {
+    var output = document.getElementById('output2');
+    output.src = URL.createObjectURL(event.target.files[0]);
+  };
+  function myFunction() {
+  document.getElementById("desclaimer").style.display = 'none';}
+</script>
+
+<form method="POST" action="/validate/" enctype="multipart/form-data">
+  {% csrf_token %}
+      <div class="inputs" align="center">
+          <div class="input_blocks">
+              <img class="imgs" id="output1"/><br>
+              <input type="file" id="file2" accept="image/*" name="image1" onchange="loadFile1(event)" required>
+              <!-- <label for="file2"><div class="upload_button">Add photo</div></label> -->
+          <!-- </div>
+          
+      </div>
+      <div align="center">
+          <input type="submit" id="Submit" style="display: none;">
+          <label for="Submit">
+              <br>
+              <div class="submit_button" >SUBMIT</div>
+          </label>
+      </div>
+  </form> --> -->
