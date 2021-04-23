@@ -60,5 +60,4 @@ faceCascade = cv2.CascadeClassifier(CASCADE_PATH)
 
 >for more detail go through this pdf  :- [link](https://drive.google.com/file/d/1hy8q0nHDuTLIcw5mDD24FYOPcbvApdsj/view?usp=sharing "pdf link")
 ```
-
-![gif](https://camo.githubusercontent.com/73c77ac44b6924414745e183d70fc8e3fe32ddd892f1397d0f0b90bb5571eb65/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f336f365a74364b48784a546258436e5376752f67697068792e676966)
+> Thank you for being here!
